@@ -1,0 +1,28 @@
+@keyframes bitch {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+div[bitch] {
+    animation: bitch 1s 1;
+    padding: 1rem;
+    background-color: #a38eee;
+    color: white;
+    grid-area: bitch;
+}
+
+/*#cardList div {*/
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    /*grid-template-areas:*/
+            /*". bitch .";*/
+/*}*/
+
+
+
+

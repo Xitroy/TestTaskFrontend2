@@ -1,0 +1,190 @@
+{
+  "sample-feed": [
+    {
+      "page": 0,
+      "lastPage": 2,
+      "content": [
+        {
+          "id": "1",
+          "type": "movie",
+          "category": "трейлер",
+          "pageUrl": "sample-url",
+          "name": "Железный Человек 3 / Iron Man 3"
+        },
+        {
+          "id": "2",
+          "type": "music",
+          "genre": "rock",
+          "pageUrl": "sample-url",
+          "name": "Limp Bizkit ­ Behind Blue Eyes"
+        },
+        {
+          "id": "3",
+          "type": "movie",
+          "genre": "боевик",
+          "pageUrl": "sample-url",
+          "name": "Terminator"
+        },
+        {
+          "id": "4",
+          "type": "music",
+          "genre": "rock",
+          "pageUrl": "sample-url",
+          "name": "Lifehouse - undone"
+        },
+        {
+          "id": "5",
+          "type": "music",
+          "genre": "ethno",
+          "pageUrl": "sample-url",
+          "name": "2 hours of celtic musec"
+        },
+        {
+          "id": "6",
+          "type": "music",
+          "genre": "ethno",
+          "pageUrl": "sample-url",
+          "name": "Some ethno music"
+        },
+        {
+          "id": "7",
+          "type": "music",
+          "genre": "ethno",
+          "pageUrl": "sample-url",
+          "name": "Some ethno music 2"
+        },
+        {
+          "id": "8",
+          "type": "music",
+          "genre": "ethno ",
+          "pageUrl": "sample-url",
+          "name": "Some ethno music 3"
+        },
+        {
+          "id": "9",
+          "type": "music",
+          "genre": "rock",
+          "pageUrl": "sample-url",
+          "name": "Some rock music 1"
+        },
+        {
+          "id": "10",
+          "type": "music",
+          "genre": "rock",
+          "pageUrl": "sample-url",
+          "name": "Some rock music 2"
+        }
+      ]
+    },
+    {
+      "page": 1,
+      "lastPage": 2,
+      "content": [
+        {
+          "id": "11",
+          "type": "music",
+          "genre": "rock",
+          "pageUrl": "sample-url",
+          "name": "Some rock music 3"
+        },
+        {
+          "id": "12",
+          "type": "movie",
+          "genre": "комедия",
+          "pageUrl": "sample-url",
+          "name": "Some cpmedy 2"
+        },
+        {
+          "id": "13",
+          "type": "movie",
+          "genre": "комедия",
+          "pageUrl": "sample-url",
+          "name": "Some cpmedy 3"
+        },
+        {
+          "id": "14",
+          "type": "movie",
+          "genre": "комедия",
+          "pageUrl": "sample-url",
+          "name": "Some cpmedy 4"
+        },
+        {
+          "id": "15",
+          "type": "movie",
+          "genre": "комедия",
+          "pageUrl": "sample-url",
+          "name": "Some cpmedy 5"
+        },
+        {
+          "id": "16",
+          "type": "music",
+          "genre": "another",
+          "pageUrl": "sample-url",
+          "name": "Another music 1"
+        },
+        {
+          "id": "17",
+          "type": "music",
+          "genre": "another",
+          "pageUrl": "sample-url",
+          "name": "Another music 2"
+        },
+        {
+          "id": "18",
+          "type": "music",
+          "genre": "another",
+          "pageUrl": "sample-url",
+          "name": "Another music 3"
+        },
+        {
+          "id": "19",
+          "type": "music",
+          "genre": "another",
+          "pageUrl": "sample-url",
+          "name": "Another music 4"
+        },
+        {
+          "id": "20",
+          "type": "music",
+          "genre": "another",
+          "pageUrl": "sample-url",
+          "name": "Another music 5"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "lastPage": 2,
+      "content": [
+        {
+          "id": "21",
+          "type": "movie",
+          "genre": "боевик",
+          "pageUrl": "sample-url",
+          "name": "Terminator 2"
+        },
+        {
+          "id": "22",
+          "type": "movie",
+          "genre": "боевик",
+          "pageUrl": "sample-url",
+          "name": "Terminator 3"
+        },
+        {
+          "id": "23",
+          "type": "movie",
+          "genre": "боевик",
+          "pageUrl": "sample-url",
+          "name": "Качок - кабачок"
+        },
+        {
+          "id": "23",
+          "type": "movie",
+          "genre": "боевик",
+          "pageUrl": "sample-url",
+          "name": "Качок - кабачок 2"
+        }
+      ]
+    }
+  ]
+}
