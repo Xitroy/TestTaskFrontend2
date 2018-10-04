@@ -1,28 +1,18 @@
-@keyframes bitch {
-    from {
-        opacity: 0
-    }
-    to {
-        opacity: 1
-    }
+.cardListContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
 }
 
-
-div[bitch] {
-    animation: bitch 1s 1;
-    padding: 1rem;
-    background-color: #a38eee;
-    color: white;
-    grid-area: bitch;
+.cardContent{
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 
-/*#cardList div {*/
-    /*display: grid;*/
-    /*grid-template-columns: 1fr 1fr 1fr;*/
-    /*grid-template-areas:*/
-            /*". bitch .";*/
-/*}*/
+.searchInput {
+    margin: 24px 0;
+    grid-column-start: 3;
+}
 
-
-
-
+#loadBtn {
+    grid-column-start: 3;
+}

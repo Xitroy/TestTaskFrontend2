@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c7e4317-aeef-4ecc-8e06-fc0b368a1ba8" name="Default Changelist" comment="Initial commit;&#10;1. code structure&#10;2. rest server &#10;3. button &quot;get more&quot;&#10;4. server responses to click button">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DbMockup/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DbMockup/db2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DbMockup/example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DbMockup/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SampleCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SampleCard/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SampleCardList/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SampleCardList/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+    <list default="true" id="4c7e4317-aeef-4ecc-8e06-fc0b368a1ba8" name="Default Changelist" comment="Code done">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DbMockup/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DbMockup/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SampleCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SampleCard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SampleCard/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SampleCard/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SampleCardList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SampleCardList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SampleCardList/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SampleCardList/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,42 +30,45 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="10" />
+          <entry key="css" value="16" />
           <entry key="db" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="4" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="23" />
-          <entry key="json" value="10" />
+          <entry key="js" value="44" />
+          <entry key="json" value="15" />
+          <entry key="md" value="1" />
+          <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="10" />
+          <entry key="CSS" value="16" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="23" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JSON" value="16" />
+          <entry key="JavaScript" value="44" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="319" />
+          <entry key="css" value="759" />
           <entry key="db" value="317" />
-          <entry key="html" value="2" />
-          <entry key="js" value="4113" />
-          <entry key="json" value="76" />
-          <entry key="txt" value="139" />
+          <entry key="html" value="3" />
+          <entry key="js" value="6049" />
+          <entry key="json" value="187" />
+          <entry key="txt" value="148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="319" />
-          <entry key="HTML" value="2" />
-          <entry key="JSON" value="393" />
-          <entry key="JavaScript" value="4113" />
-          <entry key="PLAIN_TEXT" value="139" />
+          <entry key="CSS" value="759" />
+          <entry key="HTML" value="3" />
+          <entry key="JSON" value="504" />
+          <entry key="JavaScript" value="6049" />
+          <entry key="PLAIN_TEXT" value="148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -87,28 +81,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/DbMockup/db.json">
+        <entry file="file://$PROJECT_DIR$/src/components/SampleCard/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/DbMockup/db2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SampleCardList/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -117,19 +93,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/DbMockup/example.html">
+        <entry file="file://$PROJECT_DIR$/src/components/SampleCardList/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="525">
+              <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/components/DbMockup/db.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="15">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -147,6 +126,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>json-serv</find>
+      <find>movie</find>
+      <find>musi</find>
+      <find>movi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,15 +144,19 @@
         <option value="$PROJECT_DIR$/src/components/SampleCardList/index.css" />
         <option value="$PROJECT_DIR$/foryandex/test.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/SampleCard/style.css" />
-        <option value="$PROJECT_DIR$/src/components/SampleCardList/style.css" />
         <option value="$PROJECT_DIR$/src/components/SyntaxTests/testit.js" />
         <option value="$PROJECT_DIR$/src/components/DbMockup/db" />
         <option value="$PROJECT_DIR$/src/components/DbMockup/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/SampleCard/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/DbMockup/db.js" />
+        <option value="$PROJECT_DIR$/src/components/DbMockup/example.html" />
+        <option value="$PROJECT_DIR$/src/components/Search/index.js" />
+        <option value="$PROJECT_DIR$/src/components/SampleCard/style.css" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Header/index.js" />
+        <option value="$PROJECT_DIR$/src/components/SampleCardList/style.css" />
+        <option value="$PROJECT_DIR$/src/components/SampleCard/index.js" />
         <option value="$PROJECT_DIR$/src/components/DbMockup/db.json" />
         <option value="$PROJECT_DIR$/src/components/SampleCardList/index.js" />
       </list>
@@ -227,7 +213,14 @@
               <item name="frontend2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="SampleCardList" type="462c0819:PsiDirectoryNode" />
+              <item name="DbMockup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,37 +308,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538496820893</updated>
-      <workItem from="1538496824553" duration="36892000" />
+      <workItem from="1538496824553" duration="54265000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit;&#10;1. code structure&#10;2. rest server &#10;3. button &quot;get more&quot;&#10;4. server responses to click button">
+      <created>1538617848906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538617848906</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36892000" />
+    <option name="totallyTimeSpent" value="54265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18532526" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49848714" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5015129" side_tool="true" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.30163935" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18532526" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49848714" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49919093" weight="0.30163935" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Remote Host" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +357,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit;&#10;1. code structure&#10;2. rest server &#10;3. button &quot;get more&quot;&#10;4. server responses to click button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit;&#10;1. code structure&#10;2. rest server &#10;3. button &quot;get more&quot;&#10;4. server responses to click button" />
+    <MESSAGE value="Code done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -379,13 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SampleCard/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SyntaxTests/testit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -393,33 +388,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SampleCardList/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/jquery-mockjax/src/jquery.mockjax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DbMockup/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SampleCard/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
@@ -434,10 +405,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/components/DbMockup/example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="45">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="152" column="7" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DbMockup/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.core.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="285" column="4" selection-start-line="285" selection-start-column="4" selection-end-line="285" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -448,27 +436,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DbMockup/db.json">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SampleCardList/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Search/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DbMockup/example.html">
+    <entry file="file://$PROJECT_DIR$/src/components/SampleCardList/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SampleCard/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SampleCard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DbMockup/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SampleCardList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

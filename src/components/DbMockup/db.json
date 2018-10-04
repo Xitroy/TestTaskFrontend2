@@ -1,172 +1,172 @@
 {
-  "content": [
+  "sample-feed": [
     {
       "id": "1",
       "type": "movie",
       "category": "трейлер",
       "pageUrl": "sample-url",
-      "name": "Железный Человек 3 / Iron Man 3"
+      "name": "111"
     },
     {
       "id": "2",
       "type": "music",
       "genre": "rock",
       "pageUrl": "sample-url",
-      "name": "Limp Bizkit ­ Behind Blue Eyes"
+      "name": "222"
     },
     {
       "id": "3",
       "type": "movie",
-      "genre": "боевик",
+      "category": "боевик",
       "pageUrl": "sample-url",
-      "name": "Terminator"
+      "name": "333"
     },
     {
       "id": "4",
       "type": "music",
       "genre": "rock",
       "pageUrl": "sample-url",
-      "name": "Lifehouse - undone"
+      "name": "444"
     },
     {
       "id": "5",
       "type": "music",
       "genre": "ethno",
       "pageUrl": "sample-url",
-      "name": "2 hours of celtic musec"
+      "name": "555"
     },
     {
       "id": "6",
       "type": "music",
       "genre": "ethno",
       "pageUrl": "sample-url",
-      "name": "Some ethno music"
+      "name": "666"
     },
     {
       "id": "7",
       "type": "music",
       "genre": "ethno",
       "pageUrl": "sample-url",
-      "name": "Some ethno music 2"
+      "name": "777"
     },
     {
       "id": "8",
       "type": "music",
       "genre": "ethno ",
       "pageUrl": "sample-url",
-      "name": "Some ethno music 3"
+      "name": "888"
     },
     {
       "id": "9",
       "type": "music",
       "genre": "rock",
       "pageUrl": "sample-url",
-      "name": "Some rock music 1"
+      "name": "999"
     },
     {
       "id": "10",
       "type": "music",
       "genre": "rock",
       "pageUrl": "sample-url",
-      "name": "Some rock music 2"
+      "name": "101010"
     },
     {
       "id": "11",
       "type": "music",
       "genre": "rock",
       "pageUrl": "sample-url",
-      "name": "Some rock music 3"
+      "name": "1111"
     },
     {
       "id": "12",
       "type": "movie",
-      "genre": "комедия",
+      "category": "комедия",
       "pageUrl": "sample-url",
-      "name": "Some cpmedy 2"
+      "name": "2222"
     },
     {
       "id": "13",
       "type": "movie",
-      "genre": "комедия",
+      "category": "комедия",
       "pageUrl": "sample-url",
-      "name": "Some cpmedy 3"
+      "name": "3333"
     },
     {
       "id": "14",
       "type": "movie",
-      "genre": "комедия",
+      "category": "комедия",
       "pageUrl": "sample-url",
-      "name": "Some cpmedy 4"
+      "name": "4444"
     },
     {
       "id": "15",
       "type": "movie",
-      "genre": "комедия",
+      "category": "комедия",
       "pageUrl": "sample-url",
-      "name": "Some cpmedy 5"
+      "name": "5555"
     },
     {
       "id": "16",
       "type": "music",
       "genre": "another",
       "pageUrl": "sample-url",
-      "name": "Another music 1"
+      "name": "6666"
     },
     {
       "id": "17",
       "type": "music",
       "genre": "another",
       "pageUrl": "sample-url",
-      "name": "Another music 2"
+      "name": "7777"
     },
     {
       "id": "18",
       "type": "music",
       "genre": "another",
       "pageUrl": "sample-url",
-      "name": "Another music 3"
+      "name": "8888"
     },
     {
       "id": "19",
       "type": "music",
       "genre": "another",
       "pageUrl": "sample-url",
-      "name": "Another music 4"
+      "name": "9999"
     },
     {
       "id": "20",
       "type": "music",
       "genre": "another",
       "pageUrl": "sample-url",
-      "name": "Another music 5"
+      "name": "20202020"
     },
     {
       "id": "21",
       "type": "movie",
-      "genre": "боевик",
+      "category": "боевик",
       "pageUrl": "sample-url",
-      "name": "Terminator 2"
+      "name": "11111"
     },
     {
       "id": "22",
       "type": "movie",
-      "genre": "боевик",
+      "category": "боевик",
       "pageUrl": "sample-url",
-      "name": "Terminator 3"
+      "name": "22222"
     },
     {
       "id": "23",
       "type": "movie",
-      "genre": "боевик",
+      "category": "боевик",
       "pageUrl": "sample-url",
-      "name": "Качок - кабачок"
+      "name": "33333"
     },
     {
       "id": "23",
       "type": "movie",
-      "genre": "боевик",
+      "category": "боевик",
       "pageUrl": "sample-url",
-      "name": "Качок - кабачок 2"
+      "name": "55555"
     }
   ]
 }
