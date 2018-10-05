@@ -23,7 +23,7 @@ class SampleCard extends React.Component {
 
           <div className={"cardName"}><span className={"field"}>Name:</span> <span className={"fieldData"}>{this.props.name}</span> </div>
           <div className={"cardType"}><span className={"field"}>Type:</span> <span className={"fieldData"}>{this.props.type}</span> </div>
-          <div className={"cardCategory"}><span className={"field"}>Category:</span> <span className={"fieldData"}>{this.props.category}</span></div>
+          <div className={this.props.category ? "cardCategory" : this.props.genre ? "cardGenre" : ""}><span className={"field"}>{this.props.category ? "Category:" : this.props.genre ? "Genre:" : ""}</span> <span className={"fieldData"}>{this.props.category ? this.props.category : this.props.genre ? this.props.genre : ""}</span></div>
         </Card>
         <a href={this.props.pageUrl} className={"cardLink"}>Download</a>
       </div>
