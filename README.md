@@ -53,7 +53,10 @@ name ­ [string] название ролика
 </pre>
 # Запуск
 1. Подтянуть зависимости
-2. Запустить: >json-server db.json --port 3030 из папки components/DbMockup
+2. Для симуляции API REST понадобится https://github.com/typicode/json-server
+Запустить: >json-server db.json --port 3030
+(или другой, но тогда подправьте строчку в компоненте SampleCardList)
+из папки components/DbMockup
 3. npm start
 4. Наслаждаться этим замечательным функционалом из одной кнопки и строки поиска
 
